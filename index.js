@@ -108,5 +108,34 @@
 // Австралия - 170 кредитов
 // Индия - 80 кредитов
 // Ямайка - 120 кредитов
+// localStorage.setItem("Vlad", "29");
+// localStorage.removeItem("Vlad");
+// // console.log(localStorage);
+
+// const settings = {
+//     theme: "dark",
+//     isAuthenticated: true,
+//     options: [1, 2, 3],
+// };
+// localStorage.setItem("settings", JSON.stringify(settings))
+// const savedSettings = localStorage.getItem("settings");
+// const parsedSettings = JSON.parse(savedSettings);
+// console.log(parsedSettings);
+
+// localStorage.clear()
+
+// const form = document.querySelector(".feedback-form");
+// const localStorageKey = "goit-message";
+
+// form.elements.message.value = localStorage.getItem(localStorageKey) ?? "";
 
 
+// form.addEventListener("input", (evt) => {
+//     localStorage.setItem(localStorageKey, evt.target.value);
+// });
+
+// form.addEventListener("submit", (evt) => {
+//     evt.preventDefault();
+//     localStorage.removeItem(localStorageKey);
+//     form.reset();
+// })
